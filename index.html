@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object Model    </title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="para"> this paragraph is for testing </p>
+    <h1 id="hii"> hii everyone welcome!!</h2>
+    <nav>
+        Shivanshu Gupta
+    </nav>
+    <button id="btn">Button</button>
+    <script src="learn.js">
+        //  const id = document.getElementById("hii")
+        //  id.classList.add("red");
+
+    </script>
+    <script>
+        const btn = document.getElementById('btn');
+        function fun(){
+            console.log("Hello I am Clicked");
+        }
+        btn.addEventListener("click",fun);
+        /* using addEventListener there is no override of function just in case of using direct onclick last function
+        that is used is apply in onclick  */
+      const child = document.querySelector("body").children
+      console.log(child)
+        
+       
+    </script>
+    <script>
+        const fun2 = () =>{
+            console.log("I am also Clicked")
+
+        }
+        btn.addEventListener("click",fun2);
+
+    </script>
+</body>
+</html>
