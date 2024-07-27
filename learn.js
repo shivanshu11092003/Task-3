@@ -131,6 +131,31 @@ Successful Response:
 redirection message
 300 : multiple choices
 301: moved permanently
+302: Found
+304: not modified
+308: permanent redirect
+307: temporary redirect
+
+client error:
+400: Bad Request
+401: unauthorized
+402: payment required
+403 : forbidden
+404: page not found
+405: method not allowed
+408: request timeout
+410 : gone
+413: entity is larger tah limit
+414: uri to long
+
+server error response:
+500 : Internal server error
+501: not implemented 
+502: bad gateway
+503 : service not unavailable
+504: service notavaible
+
+
 
 // */
 // /* JAVA SCRIPT */
@@ -145,3 +170,8 @@ redirection message
 // for(const element of itr){
 //     // console.log(element);
 // }
+
+const d = (x) =>{
+    return x;
+}
+console.log(d(5));

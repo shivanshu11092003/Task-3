@@ -11,6 +11,11 @@
     </style>
 </head>
 <body>
+  <?php
+  echo "shivanshu";  
+
+  ?>
+  
 
     <p id="just" class="para"> this paragraph is for testing </p>
     <h1 id="hii"> hii everyone welcome!!</h2>
